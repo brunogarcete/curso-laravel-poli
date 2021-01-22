@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-#Route::get('/', function (){
-#	return view('hola');
-#});
+Route::get('/uno',function(){
+	return view('index');
+});
